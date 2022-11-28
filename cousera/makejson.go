@@ -20,8 +20,9 @@ func main() {
 	fmt.Scan(&address)
 
 	m := make(map[string]string)
-	m[name] = address
+	m["name"] = name
+	m["address"] = address
 
-	u, err := json.Marshal(m)
-	 fmt.Println(string(u), err)
+	u, _ := json.Marshal(m)
+	 fmt.Println(string(u))
 }
