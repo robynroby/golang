@@ -28,3 +28,4 @@ func main() {
 	s1 = d1
 	s1.Speak()
 }
+// interface modification using null functions
