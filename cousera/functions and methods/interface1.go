@@ -29,3 +29,4 @@ func main() {
 	s1.Speak()
 }
 // interface modification using null functions
+// 
